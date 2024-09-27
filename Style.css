@@ -1,8 +1,19 @@
 
+
+@media only screen and (max-width: 500px){
+header{
+    background-color: blue;
+    width: 100%;
+}
+}
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
 }
  header{
     width: 100%;
@@ -59,14 +70,63 @@ header .request button{
     margin-left: 80px;
 }
     
-footer ul{
+.logos-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+/* footer ul{
     display: flex;
     list-style-type: none;
     gap: 30px;
+} */
+
+.card-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-dev, .left-dev{ 
+    margin-top: 50px;
+}
+
+.card-div .right-dev .card{
+    border-radius: 50px;
+    height: 250px;
+
+}
+.card-div .left-dev .card{
+    border-radius: 50px;
+    height: 250px;
+}
+
+.card-div .left-dev .card{
+    background: yellowgreen;
+}
+
+.card-div .right-dev .card{
+    background: rgb(248, 242, 242);
+}
+
+.card-div .left-dev .card-title{
+    background-color: white;
+    width: max-content;
+    margin: 0;
+}
+
+footer{
+    background-color: blueviolet;
 }
 
 .right{
     display: flex;
+    margin-top: 100px;
 }
 
 h2{
@@ -74,12 +134,180 @@ h2{
     height: 51px;
     background-color: greenyellow;
     text-align: center;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
+    margin-left: 70px;
    
 }
 
 p{
     font-size: 18px;
 margin-left: 25px;
+}
+
+.accordians {
+    margin-left: 150px !important;
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 10px !important;
+    /* background-color: greenyellow; */
+    /* border-radius: 45px !important; */
+
+    
+}
+
+
+.accordians .accordion-item , .accordion-header{
+    background-color: greenyellow;
+    border-radius: 60px !important;
+    height: 150px;
+} 
+
+/* .accordians button{
+    background: greenyellow;
+   
+} */
+
+.accordion-item {
+    display: flex !important;
+    justify-content: center !important; 
+    align-items: center !important;
+}
+
+.accordion-body{
+    margin-left: 50px;
+    margin-top: 20px;
   
+}
+
+.accordion-header{
+    border-radius: 45px !important;
+    border: transparent !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 15px !important;
+
+}
+
+.accordion-header:active{
+    border: none !important;
+}
+.hr{
+    margin-top: 70px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion-button{
+    background-color: yellowgreen !important;
+    color: #000 !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    overflow: hidden !important;
+    /* border-radius: 50% !important; */
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+
+.accordion-button:active{
+    border: 1px solid yellowgreen !important;
+}
+
+.accordion-body{
+    color: #000;
+    font-size: 20px;
+    border-left: 3px solid #fff;
+}
+
+.contact{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    height: 80px;
+}
+
+.contact h2{
+    /* height: 80px; */
+    width: 200px;
+}
+
+.form{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    background-color: rgb(227, 235, 235);
+    border-radius: 40px;
+    float: left;
+    width: 90%;
+    height: 600px;
+    margin-left: 100px;
+}
+
+.message{
+    background-color: rgb(234, 234, 240);
+    height: 150px;
+    width: 400px;
+ 
+}
+
+.left-form{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.getQuote{
+    margin-left: 50px;
+}
+
+.name, .email{
+    width: 600px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.textarea{
+    width: 600px;
+    height: 200px;
+    margin-left: 50px;
+    border-radius: 0.5rem;
+}
+
+.textarea::placeholder{
+    margin-left: 120px !important;
+}
+
+.sendbtn{
+    width: 600px;
+    margin-top: 10px;
+    background-color: rgb(25 26 35);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.send-message{
+    background-color: rgb(233, 233, 241);
+    margin-left: 150px;
+    height: 150px;
+    width: 400px;
+}
+
+.right-img{
+    width: 20%;
+    display: flex;
+    float: right;
+    /* overflow: hidden; */
+    margin-right: 120px;
+}
+
+.fooooter{
+    width: 100%;
+    height: 200px;
+    background-color: yellowgreen;
 }
